@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Password Shield — مولد كلمات مرور آمنة محليًا بدون إنترنت أو تتبع." />
+  <meta name="author" content="يحيى باقش" />
+  <title>Password Shield — مولد كلمات مرور آمنة</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔒 Password Shield</h1>
+      <p>مولد كلمات مرور آمنة — يعمل محليًا، بدون إنترنت، بدون تتبع</p>
+    </header>
+
+    <section class="generator">
+      <div class="input-group">
+        <label for="length">طول كلمة المرور:</label>
+        <input type="range" id="length" min="8" max="64" value="16" />
+        <span id="length-value">16</span> حرف
+      </div>
+
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="uppercase" checked> أحرف كبيرة (A-Z)</label>
+        <label><input type="checkbox" id="lowercase" checked> أحرف صغيرة (a-z)</label>
+        <label><input type="checkbox" id="numbers" checked> أرقام (0-9)</label>
+        <label><input type="checkbox" id="symbols" checked> رموز (!@#$%)</label>
+      </div>
+
+      <button id="generate">إنشاء كلمة مرور</button>
+    </section>
+
+    <section class="result">
+      <label for="password">كلمة المرور:</label>
+      <div class="password-display" id="password">اضغط على "إنشاء" لإنشاء كلمة مرور</div>
+      <button id="copy">نسخ</button>
+    </section>
+
+    <section class="security">
+      <h3>🛡️ لماذا هذا آمن؟</h3>
+      <ul>
+        <li>لا تُرسل أي بيانات للإنترنت — كل شيء يُحسب في متصفحك.</li>
+        <li>لا تخزن أي كلمات مرور — لا ملفات، لا كوكيز، لا localStorage.</li>
+        <li>لا تتبع، لا إعلانات، لا أدوات تحليل.</li>
+        <li>مبنية بـ HTML, CSS, JavaScript فقط — كما تؤمن.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>مُبنى بحب بواسطة <strong>يحيى باقش</strong> — مصمم جرافيك ومبرمج ويب من صنعاء، اليمن</p>
+      <p>🔗 <a href="https://github.com/yahyabakash/password-shield" target="_blank">عرض الكود على GitHub</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
