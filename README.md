@@ -44,7 +44,7 @@
 
 ## 🛠 كيف تستخدمه؟
 
-1. افتح الرابط: [https://yahyabakash.github.io/password-shield/](https://yahyabakash.github.io/password-shield/)
+1. افتح الرابط: [https://yahyabakash.github.io/password-shield/]([https://yahyabakash.github.io/password-shield/](https://github.com/yahaybaqsh/password-shield))
 2. استخدمه مباشرة — لا حاجة للتثبيت.
 3. يمكنك تنزيل الملفات وتشغيلها محليًا على جهازك.
 
